@@ -1,6 +1,6 @@
-# 🚌 PO CAN Travel - REST API Sistem Pemesanan Tiket Bus
+# PO CAN Travel - REST API Sistem Pemesanan Tiket Bus
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 * **Framework:** Laravel 10
 * **Database:** PostgreSQL (pgAdmin 4)
 * **Autentikasi:** Laravel Sanctum
@@ -8,15 +8,15 @@
 
 ---
 
-## 📡 Dokumentasi API (Endpoints)
+## Dokumentasi API (Endpoints)
 
-**⚠️ PERHATIAN:** Semua request **WAJIB** menyertakan Header berikut:
+**PERHATIAN:** Semua request **WAJIB** menyertakan Header berikut:
 * `Accept: application/json`
 * `X-API-KEY: rahasia_po_can_travel_123`
 
 ---
 
-### 🟢 1. Public Routes (Hanya butuh API Key)
+### 1. Public Routes (Hanya butuh API Key)
 
 * **`POST /api/register`**
   * **Fungsi:** Mendaftarkan user baru.
@@ -33,7 +33,7 @@
 
 ---
 
-### 🔴 2. Protected Routes (Butuh API Key + Bearer Token)
+### 2. Protected Routes (Butuh API Key + Bearer Token)
 
 **Tambahkan Header tambahan:** `Authorization: Bearer <token_anda_dari_login>`
 
